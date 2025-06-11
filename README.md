@@ -24,7 +24,7 @@ Deep Q-Network agent that learns to solve the classic **Gymnasium Taxi-v3** envi
 | matplotlib  | >= 3.8.0       |              N/A            |
 | PyYAML      | >= 6.0         | YAML config parsing                              |
 
-All dependencies are used **`pyproject.toml`** and stored in **`requirements.txt`** for quick installs.
+All dependencies are used by **`pyproject.toml`** and stored in **`requirements.txt`** for quick installs.
 
 > **_NOTE:_**  If running on MacOS, beware that PyGame is **EXTREMELY** unreliable and you might run into issues regarding env. rendering.
 ---
