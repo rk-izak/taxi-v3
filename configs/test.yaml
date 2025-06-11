@@ -1,0 +1,18 @@
+# testing args
+episodes: 100
+model_checkpoint: best_checkpoints/dqn_taxi_final.pt # currently based ckpt
+epsilon: 0 # greedy for testing
+
+# logging args
+log_csv: "best_results/testing_rewards.csv"
+plot_path: "best_results/testing_rewards.png"
+
+# misc
+device: "cpu"
+seed: 42
+render: false # if set to true, will render human-readable simulation (very slow)
+
+# kept for less code reformatting, but unusued for testing!
+epsilon_start: 1.0
+epsilon_end: 0.05
+epsilon_decay_rate: 0.995

@@ -1,0 +1,14 @@
+# taken from: https://gymnasium.farama.org/environments/toy_text/taxi/
+state_dim: 500
+action_dim: 6
+
+# network architecture 
+use_embedding: true
+embedding_dim: 32
+hidden_sizes: [512, 256, 256, 128, 128, 64, 64]
+
+# rl hyper-params 
+gamma: 0.99
+learning_rate: 0.0005
+batch_size: 512
+replay_memory_size: 100000

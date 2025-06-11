@@ -1,0 +1,17 @@
+# train args
+episodes: 1000
+epsilon_start: 1.0
+epsilon_end: 0.05
+epsilon_decay_rate: 0.995
+target_update_interval: 10
+checkpoint_interval: 100
+
+# logging args
+checkpoint_dir: checkpoints
+log_csv: "results/training_rewards.csv"
+plot_path: "results/training_rewards.png"
+
+# misc.
+seed: 42
+device: "cpu"
+render: false # if set to true, will render human-readable simulation (very slow)
